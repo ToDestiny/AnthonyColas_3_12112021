@@ -1,3 +1,25 @@
+/* Main SCSS */
+
+//Imports
+
+// Utils files
+@import "utils/all";
+
+// Base files
+@import "base/all";
+
+// Components
+@import "components/all";
+
+// Layout
+@import "layout/all";
+
+// Vendors
+@import "vendors/all";
+
+// Pages
+@import "pages/all";
+
 @media all {
   html,
   body {
@@ -5,7 +27,7 @@
     overflow-x: hidden;
   }
 
-  /* Activation de box-sizing */
+  //  Activation de box-sizing
   .box {
     box-sizing: border-box; /* Opera/IE 8+ */
     -moz-box-sizing: border-box; /* Firefox, autres Gecko */
@@ -14,7 +36,7 @@
 
   * {
     box-sizing: border-box;
-    font-family: "Raleway", sans-serif;
     margin: 0;
     padding: 0;
   }
+}

@@ -1,0 +1,9 @@
+/* Mixins */
+
+/* Fonts */
+@mixin font-titles {
+  font-family: "Shrikhand", cursive;
+}
+@mixin font-text {
+  font-family: "Roboto", sans-serif;
+}

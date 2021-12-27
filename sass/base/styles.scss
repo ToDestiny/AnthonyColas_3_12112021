@@ -1,0 +1,20 @@
+@media all {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* Activation de box-sizing */
+  .box {
+    box-sizing: border-box; /* Opera/IE 8+ */
+    -moz-box-sizing: border-box; /* Firefox, autres Gecko */
+    -webkit-box-sizing: border-box; /* Safari/Chrome, autres WebKit */
+  }
+
+  * {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+  }

@@ -1,5 +1,11 @@
 /* Header SCSS */
 
-.header__map {
+.header {
   background-color: blue;
+  &__logo {
+    background-color: pink;
+  }
+  &__map {
+    background-color: red;
+  }
 }

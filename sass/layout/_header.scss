@@ -1,11 +1,32 @@
 /* Header SCSS */
 
 .header {
-  background-color: blue;
+  &__nav {
+    height: 4em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 20px #999;
+  }
   &__logo {
-    background-color: pink;
+    height: 1.75em;
+    width: 50%;
   }
   &__map {
-    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    background-color: $map-bgdclr;
+    color: $map-txtclr;
+    box-shadow: inset 0px 2px 5px #cfcfcf;
+    h2 {
+      font-family: $txt_font_family;
+      font-weight: bold;
+      font-size: 1em;
+      margin-left: 15px;
+    }
   }
 }

@@ -3,6 +3,7 @@
 /* Mixins */
 /* Fonts */
 /* Variables */
+/* font-family */
 /* Colors */
 /* All base */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -348,14 +349,33 @@ template {
 /* All base */
 /* All base */
 /* Header SCSS */
-.header {
-  background-color: blue;
+.header__nav {
+  height: 4em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 20px #999;
 }
 .header__logo {
-  background-color: pink;
+  height: 1.75em;
+  width: 50%;
 }
 .header__map {
-  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  background-color: #eaeaea;
+  color: #4b4b4b;
+  box-shadow: inset 0px 2px 5px #cfcfcf;
+}
+.header__map h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  margin-left: 15px;
 }
 
 /* All Vendors */

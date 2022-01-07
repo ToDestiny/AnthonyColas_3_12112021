@@ -408,10 +408,17 @@ template {
   margin: 10px 20px 10px 20px;
 }
 .hero btn {
+  height: 3em;
+  width: 13em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0 50px 0;
   color: #fff;
   font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 0.9rem;
+  background-image: linear-gradient(to bottom right, #ff79da, #9356dc);
+  border-radius: 25px;
 }
 
 /* All Vendors */
@@ -436,5 +443,19 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+  }
+
+  h1,
+h2 {
+    font-family: "Shrikhand", cursive;
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
   }
 }/*# sourceMappingURL=app.css.map */

@@ -39,4 +39,30 @@
     margin: 0;
     padding: 0;
   }
+
+  h1,
+  h2 {
+    font-family: "Shrikhand", cursive;
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  @media all {
+  }
+
+  @media (min-width: 992px) {
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+  }
+
+  @media (max-width: 767px) {
+  }
 }

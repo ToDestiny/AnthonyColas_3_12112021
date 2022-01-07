@@ -4,8 +4,8 @@
 @mixin typo-txt($color: $black) {
   color: $color;
   font-family: $txt_font_family;
-  font-size: 1rem;
-  font-weight: 50;
+  font-size: 1.1rem;
+  font-weight: 100;
   line-height: 1.3;
 }
 

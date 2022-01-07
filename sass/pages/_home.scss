@@ -1,0 +1,60 @@
+/* Home SCSS */
+
+.header {
+  @import "../layout/header";
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+  h1 {
+    @include typo-titles;
+    text-align: center;
+    margin: 45px 50px 0px 50px;
+  }
+  p {
+    @include typo-txt;
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+  }
+  button {
+    height: 3.5em;
+    width: 14em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0 55px 0;
+    @include typo-btn;
+    background-image: linear-gradient(
+      to bottom right,
+      $colour-secondary,
+      $colour-primary
+    );
+    border-radius: 25px;
+    box-shadow: 0px 15px 10px -15px #4b4b4b;
+    border-style: none;
+  }
+}
+
+.menu {
+  h2 {
+    @include typo-titles;
+    margin: 25px 0 25px 15px;
+  }
+  &_btn {
+    @include typo-btn(black);
+    height: 5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0 50px 0;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px #999;
+    border-style: none;
+  }
+}

@@ -456,34 +456,95 @@ template {
   margin: 15px 0 55px 0;
   color: #fff;
   font-family: "Roboto", sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-weight: 0;
   background-image: linear-gradient(to bottom right, #ff79da, #9356dc);
   border-radius: 25px;
   box-shadow: 0px 15px 10px -15px #4b4b4b;
   border-style: none;
 }
 
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+}
 .menu h2 {
+  width: 100%;
   color: #000;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 25px 0 25px 15px;
+  font-weight: bold;
+  align-items: flex-start;
+  margin: 50px 0 15px 40px;
+  justify-content: center;
 }
 .menu_btn {
   color: black;
   font-family: "Roboto", sans-serif;
-  font-size: 0.9rem;
-  height: 5em;
-  width: 100%;
+  font-size: 1rem;
+  font-weight: 0;
+  height: 4.5em;
+  width: 85%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 15px 0 50px 0;
+  margin: 15px 0px 10px 0px;
   background-color: #f6f6f6;
   border-radius: 10px;
   box-shadow: 0px 5px 20px #999;
   border-style: none;
+  border-radius: 25px;
+}
+.menu_btn:hover {
+  background-color: #f5edff;
+}
+.menu_num {
+  background-color: #9356dc;
+  color: #fff;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-61px);
+  font-weight: normal;
+}
+
+.num2 {
+  transform: translate(-67px);
+}
+
+.num3 {
+  transform: translate(-65px);
+}
+
+.icn {
+  transform: translate(-35px);
+}
+
+.icn2 {
+  transform: translate(-40px);
+}
+
+.icn3 {
+  transform: translate(-40px);
+}
+
+.fa-mobile-screen-button,
+.fa-list,
+.fa-store {
+  color: #999;
+}
+
+.menu_btn:hover .fa-mobile-screen-button,
+.menu_btn:hover .fa-list,
+.menu_btn:hover .fa-store {
+  color: #9356dc;
 }
 
 @media all {
@@ -491,6 +552,8 @@ template {
 body {
     max-width: 100%;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
   }
 
   .box {

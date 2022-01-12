@@ -19,7 +19,8 @@
 @mixin typo-btn($color: $white) {
   color: $color;
   font-family: $txt_font_family;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-weight: 0;
 }
 
 @mixin reset-list {

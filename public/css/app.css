@@ -355,6 +355,23 @@ template {
 /* Variables */
 /* font-family */
 /* Colors */
+.footer_nav {
+  background-color: #363636;
+}
+.footer_nav h2 {
+  color: #fff;
+  font-family: "Shrikhand", cursive;
+  font-size: 1.2rem;
+  margin: 20px 0 20px 15px;
+}
+
+/* Home SCSS */
+/* All base */
+/* Mixins */
+/* Fonts */
+/* Variables */
+/* font-family */
+/* Colors */
 .header__nav {
   height: 4.5em;
   width: 100%;
@@ -423,6 +440,25 @@ template {
   margin-left: 15px;
 }
 
+.footer {
+  /* Home SCSS */
+  /* All base */
+  /* Mixins */
+  /* Fonts */
+  /* Variables */
+  /* font-family */
+  /* Colors */
+}
+.footer .footer_nav {
+  background-color: #363636;
+}
+.footer .footer_nav h2 {
+  color: #fff;
+  font-family: "Shrikhand", cursive;
+  font-size: 1.2rem;
+  margin: 20px 0 20px 15px;
+}
+
 .somber {
   background-color: #f6f6f6;
 }
@@ -472,7 +508,6 @@ template {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 45px;
 }
 .menu h2 {
   width: 100%;
@@ -553,6 +588,9 @@ template {
 .fa-heart {
   transform: translate(130px);
 }
+.fa-heart:hover {
+  color: #ff79da;
+}
 
 #flag {
   display: flex;
@@ -630,6 +668,10 @@ template {
 
 .h4 {
   transform: translate(120px, 35px);
+}
+
+.display {
+  display: none;
 }
 
 @media all {

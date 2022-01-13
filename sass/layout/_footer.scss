@@ -1,0 +1,19 @@
+/* Home SCSS */
+
+@import "../utils/all";
+
+.footer {
+  background-color: $background-footers;
+  &_nav {
+    background-color: $background-footer;
+    & h2 {
+      @include typo-logo;
+      margin: -40px 0 20px 15px;
+    }
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}

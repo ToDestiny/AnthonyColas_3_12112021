@@ -4,6 +4,10 @@
   @import "../layout/header";
 }
 
+.footer {
+  @import "../layout/footer";
+}
+
 // Colors
 .somber {
   background-color: $somber;
@@ -51,7 +55,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 45px;
   h2 {
     width: 100%;
     @include typo-titles;
@@ -127,6 +130,9 @@
 
 .fa-heart {
   transform: translate(130px);
+  &:hover {
+    color: $colour-secondary;
+  }
 }
 
 #flag {
@@ -190,4 +196,8 @@
 
 .h4 {
   transform: translate(120px, 35px);
+}
+
+.display {
+  display: none;
 }

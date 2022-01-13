@@ -125,25 +125,69 @@
 
 // Restaurant Section
 
+.fa-heart {
+  transform: translate(130px);
+}
+
+#flag {
+  @include flag;
+}
+
+.card {
+  background-color: $white;
+  &_bottom {
+    display: flex;
+    flex-direction: raw;
+    background-color: $white;
+  }
+  &_left,
+  &_bottom {
+    background-color: $white;
+  }
+}
 .menu {
   h3 {
     @include typo-btn($black);
+    margin: 20px 0 0 10px;
+    font-size: 1.1em;
   }
   p {
     @include typo-txt;
+    margin: 5px 0 0 10px;
   }
   &_container {
-    height: auto;
     width: 90%;
+    margin-top: 5px;
+  }
+  &_card {
+    height: 16em;
+    box-shadow: 0px 15px 10px -15px $box-shadow;
+    margin-bottom: 30px;
+    border-radius: 0 0 15px 15px;
+    background-color: $white;
   }
 }
 
 .card_img {
-  height: 80%; /*1*/
-  overflow: hidden; /*3*/
-  border-radius: 10px 10px 0 0;
+  height: 70%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px 15px 0 0;
   & img {
-    height: 400px;
-    object-fit: fill;
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    transform: scale(0.11);
   }
+}
+
+.h3 {
+  transform: translate(160px, 35px);
+}
+
+.h4 {
+  transform: translate(120px, 35px);
 }

@@ -28,3 +28,17 @@
   padding: 0;
   list-style: none;
 }
+
+@mixin flag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
+  width: 6em;
+  background-color: $mint;
+  color: $mint_txt;
+  font-size: 0.9em;
+  font-weight: bold;
+  border-radius: 2px;
+  transform: translate(75px, -170px);
+}

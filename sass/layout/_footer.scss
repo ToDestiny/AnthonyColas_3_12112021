@@ -3,17 +3,33 @@
 @import "../utils/all";
 
 .footer {
-  background-color: $background-footers;
-  &_nav {
+  background-color: $background-footer;
+  @include reset-list;
+  &_container {
     background-color: $background-footer;
+    color: $white;
+    margin: 20px 0 20px 25px;
+    line-height: 1.5;
+    font-weight: normal;
     & h2 {
       @include typo-logo;
-      margin: -40px 0 20px 15px;
+      margin: 0px 0 20px 0;
     }
   }
+}
+
+.fa-utensils {
+  margin-right: 15px;
+}
+
+.fa-handshake {
+  margin-right: 12px;
+  transform: rotate(-45deg);
 }
 
 .row {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-items: center;
 }

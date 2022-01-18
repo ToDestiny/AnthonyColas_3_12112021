@@ -355,14 +355,40 @@ template {
 /* Variables */
 /* font-family */
 /* Colors */
-.footer_nav {
+.footer {
   background-color: #363636;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-.footer_nav h2 {
+.footer_container {
+  background-color: #363636;
+  color: #fff;
+  margin: 20px 0 20px 25px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+.footer_container h2 {
   color: #fff;
   font-family: "Shrikhand", cursive;
-  font-size: 1.2rem;
-  margin: 20px 0 20px 15px;
+  font-size: 1.1rem;
+  margin: 0px 0 20px 0;
+}
+
+.fa-utensils {
+  margin-right: 15px;
+}
+
+.fa-handshake {
+  margin-right: 12px;
+  transform: rotate(-45deg);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
 }
 
 /* Home SCSS */
@@ -449,14 +475,37 @@ template {
   /* font-family */
   /* Colors */
 }
-.footer .footer_nav {
+.footer .footer {
   background-color: #363636;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-.footer .footer_nav h2 {
+.footer .footer_container {
+  background-color: #363636;
+  color: #fff;
+  margin: 20px 0 20px 25px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+.footer .footer_container h2 {
   color: #fff;
   font-family: "Shrikhand", cursive;
-  font-size: 1.2rem;
-  margin: 20px 0 20px 15px;
+  font-size: 1.1rem;
+  margin: 0px 0 20px 0;
+}
+.footer .fa-utensils {
+  margin-right: 15px;
+}
+.footer .fa-handshake {
+  margin-right: 12px;
+  transform: rotate(-45deg);
+}
+.footer .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
 }
 
 .somber {
@@ -637,6 +686,7 @@ template {
 .menu_container {
   width: 90%;
   margin-top: 5px;
+  margin-bottom: 35px;
 }
 .menu_card {
   height: 16em;

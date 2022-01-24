@@ -375,6 +375,10 @@ template {
   margin: 0px 0 20px 0;
 }
 
+a {
+  color: #fff;
+}
+
 .fa-utensils {
   margin-right: 15px;
 }
@@ -493,6 +497,9 @@ template {
   font-family: "Shrikhand", cursive;
   font-size: 1.1rem;
   margin: 0px 0 20px 0;
+}
+.footer a {
+  color: #fff;
 }
 .footer .fa-utensils {
   margin-right: 15px;

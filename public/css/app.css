@@ -605,7 +605,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translate(-61px);
+  transform: translate(-63px);
   font-weight: normal;
 }
 
@@ -641,11 +641,12 @@ a {
   color: #9356dc;
 }
 
-.fa-heart {
-  transform: translate(130px);
-}
 .fa-heart:hover {
   color: #ff79da;
+}
+
+.translate-heart {
+  transform: translate(280px, -40px);
 }
 
 #flag {
@@ -659,7 +660,10 @@ a {
   font-size: 0.9em;
   font-weight: bold;
   border-radius: 2px;
-  transform: translate(75px, -170px);
+}
+
+.translate-flag {
+  transform: translate(75px, -175px);
 }
 
 .card {
@@ -668,7 +672,6 @@ a {
 .card_bottom {
   display: flex;
   flex-direction: raw;
-  background-color: #fff;
 }
 .card_left, .card_bottom {
   background-color: #fff;
@@ -729,6 +732,12 @@ a {
 
 .display {
   display: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 @media all {

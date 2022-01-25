@@ -89,7 +89,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(-61px);
+    transform: translate(-63px);
     font-weight: normal;
   }
 }
@@ -129,14 +129,21 @@
 // Restaurant Section
 
 .fa-heart {
-  transform: translate(130px);
   &:hover {
     color: $colour-secondary;
   }
 }
 
+.translate-heart {
+  transform: translate(280px, -40px);
+}
+
 #flag {
   @include flag;
+}
+
+.translate-flag {
+  transform: translate(75px, -175px);
 }
 
 .card {
@@ -144,7 +151,6 @@
   &_bottom {
     display: flex;
     flex-direction: raw;
-    background-color: $white;
   }
   &_left,
   &_bottom {
@@ -201,4 +207,8 @@
 
 .display {
   display: none;
+}
+
+a {
+  @include reset-list;
 }

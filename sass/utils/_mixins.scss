@@ -46,5 +46,9 @@
   font-size: 0.9em;
   font-weight: bold;
   border-radius: 2px;
-  transform: translate(75px, -170px);
+}
+
+@mixin inactiveLink {
+  pointer-events: none;
+  cursor: default;
 }

@@ -430,6 +430,10 @@ a {
   margin-left: 15px;
 }
 
+.fa-arrow-left {
+  transform: translate(50px);
+}
+
 /* All Vendors */
 /* All base */
 /* Home SCSS */
@@ -468,6 +472,9 @@ a {
   font-weight: bold;
   font-size: 1em;
   margin-left: 15px;
+}
+.header .fa-arrow-left {
+  transform: translate(50px);
 }
 
 .footer {
@@ -564,6 +571,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 55px;
 }
 .menu h2 {
   width: 100%;
@@ -738,6 +746,108 @@ a {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+/* Menu1 SCSS */
+.header {
+  /* Home SCSS */
+  /* All base */
+  /* Mixins */
+  /* Fonts */
+  /* Variables */
+  /* font-family */
+  /* Colors */
+}
+.header .header__nav {
+  height: 4.5em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .header__logo {
+  height: 1.75em;
+  width: 50%;
+}
+.header .header__map {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  background-color: #eaeaea;
+  color: #4b4b4b;
+  box-shadow: inset 0px 2px 5px #cfcfcf;
+}
+.header .header__map h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  margin-left: 15px;
+}
+.header .fa-arrow-left {
+  transform: translate(50px);
+}
+
+.footer {
+  /* Home SCSS */
+  /* All base */
+  /* Mixins */
+  /* Fonts */
+  /* Variables */
+  /* font-family */
+  /* Colors */
+}
+.footer .footer {
+  background-color: #363636;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer .footer_container {
+  background-color: #363636;
+  color: #fff;
+  margin: 20px 0 20px 25px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+.footer .footer_container h2 {
+  color: #fff;
+  font-family: "Shrikhand", cursive;
+  font-size: 1.1rem;
+  margin: 0px 0 20px 0;
+}
+.footer a {
+  color: #fff;
+}
+.footer .fa-utensils {
+  margin-right: 15px;
+}
+.footer .fa-handshake {
+  margin-right: 12px;
+  transform: rotate(-45deg);
+}
+.footer .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.hero_img {
+  height: 15em;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.hero_img img {
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+  transform: scale(0.11);
 }
 
 @media all {

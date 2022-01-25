@@ -29,6 +29,13 @@
   font-size: 1.1rem;
 }
 
+@mixin typo-menu($color: $black) {
+  color: $color;
+  font-family: $txt_font_family;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
 @mixin reset-list {
   margin: 0;
   padding: 0;
@@ -51,4 +58,17 @@
 @mixin inactiveLink {
   pointer-events: none;
   cursor: default;
+}
+
+@mixin no-display {
+  display: none;
+  &:hover {
+    display: inline-flex;
+  }
+}
+
+@mixin display {
+  &:hover {
+    display: none;
+  }
 }

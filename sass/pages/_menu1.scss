@@ -24,3 +24,91 @@
     transform: scale(0.11);
   }
 }
+
+// Menu
+
+.menu1 {
+  &_menu {
+    transform: translate(0px, -30px);
+    background-color: $map-bgdclr;
+    border-radius: 30px 30px 0 0;
+    & h1 {
+      font-size: 1.7em;
+      font-weight: 50;
+      margin: 35px 0 0 30px;
+    }
+  }
+
+  &_container {
+    margin: 25px 20px 25px 20px;
+    & h2 {
+      @include typo-menu;
+    }
+  }
+
+  &_line {
+    height: 3px;
+    width: 11%;
+    background-color: $mint;
+    border: none;
+  }
+
+  &_card {
+    min-height: 65px;
+    width: 90%;
+    min-width: 340px;
+    background-color: $white;
+    border-radius: 10px;
+    margin: 15px 0 15px 0;
+    box-shadow: 0px 15px 10px -15px $box-shadow;
+    border-style: none;
+    & h3 {
+      @include typo-btn($black);
+      font-size: 1.1em;
+      margin: 0 0 10px 10px;
+    }
+    & p {
+      @include typo-menu;
+      margin-left: 10px;
+    }
+  }
+}
+
+#price1 {
+  transform: translate(120px, 15px);
+  font-weight: 400;
+}
+
+#price2 {
+  transform: translate(65px, 15px);
+  font-weight: 400;
+}
+
+#price3 {
+  transform: translate(30px, 15px);
+  font-weight: 400;
+}
+
+.fa-heart {
+  transform: translate(30px, 15px);
+}
+
+.no-display {
+  @include no-display;
+}
+
+.display {
+  @include display;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}

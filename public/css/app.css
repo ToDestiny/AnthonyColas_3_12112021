@@ -1176,7 +1176,7 @@ a {
 }
 
 #price21 {
-  transform: translate(0px, 15px);
+  transform: translate(0px, 20px);
   font-weight: 400;
   width: 100%;
 }
@@ -1266,7 +1266,7 @@ a {
   flex-direction: column;
 }
 
-/* Menu1 SCSS */
+/* menu3 SCSS */
 .header {
   /* Home SCSS */
   /* All base */
@@ -1372,32 +1372,32 @@ a {
   transform: scale(0.11);
 }
 
-.menu1_menu {
+.menu3_menu {
   transform: translate(0px, -30px);
   background-color: #eaeaea;
   border-radius: 30px 30px 0 0;
 }
-.menu1_menu h1 {
+.menu3_menu h1 {
   font-size: 1.7em;
   font-weight: 50;
   margin: 35px 0 0 30px;
 }
-.menu1_container {
+.menu3_container {
   margin: 45px 20px 25px 20px;
 }
-.menu1_container h2 {
+.menu3_container h2 {
   color: #000;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 300;
 }
-.menu1_line {
+.menu3_line {
   height: 3px;
   width: 11%;
   background-color: #99e2d0;
   border: none;
 }
-.menu1_card {
+.menu3_card {
   min-height: 65px;
   width: 90%;
   min-width: 340px;
@@ -1406,7 +1406,7 @@ a {
   margin: 15px 0 15px 0;
   box-shadow: 0px 15px 10px -15px #4b4b4b;
 }
-.menu1_card h3 {
+.menu3_card h3 {
   color: #000;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
@@ -1418,7 +1418,7 @@ a {
   overflow: hidden;
   white-space: nowrap;
 }
-.menu1_card p {
+.menu3_card p {
   color: #000;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
@@ -1431,56 +1431,56 @@ a {
   white-space: nowrap;
 }
 
-#price1 {
-  transform: translate(120px, 15px);
+#price31 {
+  transform: translate(70px, 15px);
   font-weight: 400;
   width: 100%;
 }
 
-#price2 {
-  transform: translate(65px, 15px);
+#price32 {
+  transform: translate(50px, 15px);
   font-weight: 400;
   width: 100%;
 }
 
-#price3 {
-  transform: translate(30px, 15px);
+#price33 {
+  transform: translate(140px, 15px);
   font-weight: 400;
   width: 100%;
 }
 
-#price4 {
-  transform: translate(0px, 15px);
-  font-weight: 400;
-  width: 100%;
-}
-
-#price5 {
+#price34 {
   transform: translate(10px, 15px);
+  font-weight: 400;
+  width: 100%;
+}
+
+#price35 {
+  transform: translate(35px, 15px);
   font-weight: 400;
   min-width: 100%;
 }
 
-#price6 {
-  transform: translate(165px, 15px);
+#price36 {
+  transform: translate(20px, 15px);
   font-weight: 400;
   width: 100%;
 }
 
-#price7 {
-  transform: translate(185px, 15px);
+#price37 {
+  transform: translate(60px, 15px);
   font-weight: 400;
   width: 100%;
 }
 
-#price8 {
-  transform: translate(15px, 15px);
+#price38 {
+  transform: translate(110px, 15px);
   font-weight: 400;
   width: 100%;
 }
 
-#price9 {
-  transform: translate(-5px, 15px);
+#price39 {
+  transform: translate(85px, 15px);
   font-weight: 400;
   width: 100%;
 }

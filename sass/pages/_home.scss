@@ -13,6 +13,10 @@
   background-color: $somber;
 }
 
+.white {
+  background-color: $white;
+}
+
 // Hero Section
 .hero {
   display: flex;
@@ -38,7 +42,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 55px;
+  padding-bottom: 55px;
   h2 {
     width: 100%;
     @include typo-titles;
@@ -113,17 +117,18 @@
 // Restaurant Section
 
 .fa-heart {
+  transform: translate(240px, -40px);
   &:hover {
     color: $colour-secondary;
   }
 }
 
-.translate-heart {
-  transform: translate(280px, -40px);
-}
-
 #flag {
   @include flag;
+}
+
+#home_heart {
+  transform: translate(280px, -40px);
 }
 
 .translate-flag {

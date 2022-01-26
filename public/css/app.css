@@ -543,6 +543,10 @@ a {
   background-color: #f6f6f6;
 }
 
+.white {
+  background-color: #fff;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -572,7 +576,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 55px;
+  padding-bottom: 55px;
 }
 .menu h2 {
   width: 100%;
@@ -650,12 +654,11 @@ a {
   color: #9356dc;
 }
 
+.fa-heart {
+  transform: translate(240px, -40px);
+}
 .fa-heart:hover {
   color: #ff79da;
-}
-
-.translate-heart {
-  transform: translate(280px, -40px);
 }
 
 #flag {
@@ -669,6 +672,10 @@ a {
   font-size: 0.9em;
   font-weight: bold;
   border-radius: 2px;
+}
+
+#home_heart {
+  transform: translate(280px, -40px);
 }
 
 .translate-flag {

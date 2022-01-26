@@ -1,0 +1,179 @@
+/* menu2 SCSS */
+
+.header {
+  @import "../layout/header";
+}
+
+.footer {
+  @import "../layout/footer";
+}
+
+.body-color {
+  background-color: $map-bgdclr;
+}
+
+// Hero
+.hero_img {
+  height: 15em;
+  width: 150%;
+  position: relative;
+  overflow: hidden;
+  & img {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    transform: scale(2);
+  }
+}
+
+// Menu
+
+.menu2 {
+  &_menu {
+    transform: translate(0px, -30px);
+    background-color: $map-bgdclr;
+    border-radius: 30px 30px 0 0;
+    & h1 {
+      font-size: 1.7em;
+      font-weight: 50;
+      margin: 35px 0 0 30px;
+    }
+  }
+
+  &_container {
+    margin: 45px 20px 25px 20px;
+    & h2 {
+      @include typo-menu;
+    }
+  }
+
+  &_line {
+    height: 3px;
+    width: 11%;
+    background-color: $mint;
+    border: none;
+  }
+
+  &_card {
+    min-height: 65px;
+    width: 90%;
+    min-width: 340px;
+    background-color: $white;
+    border-radius: 10px;
+    margin: 15px 0 15px 0;
+    box-shadow: 0px 15px 10px -15px $box-shadow;
+    & h3 {
+      @include typo-btn($black);
+      font-size: 1.1em;
+      margin: 0 0 10px 10px;
+      border-style: none;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    & p {
+      @include typo-menu;
+      max-width: 280px;
+      margin-left: 10px;
+      border-style: none;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+}
+
+.size-fit {
+  transform: scale(1.13);
+}
+
+#price21 {
+  transform: translate(0px, 15px);
+  font-weight: 400;
+  width: 100%;
+}
+
+#price22 {
+  transform: translate(65px, 15px);
+  font-weight: 400;
+  width: 100%;
+}
+
+#price23 {
+  transform: translate(35px, 15px);
+  font-weight: 400;
+  width: 100%;
+}
+
+#price24 {
+  transform: translate(30px, 15px);
+  font-weight: 400;
+  width: 100%;
+}
+
+#price25 {
+  transform: translate(15px, 15px);
+  font-weight: 400;
+  min-width: 100%;
+}
+
+#price26 {
+  transform: translate(110px, 15px);
+  font-weight: 400;
+  width: 100%;
+}
+
+#price27 {
+  transform: translate(25px, 15px);
+  font-weight: 400;
+  width: 100%;
+}
+
+#price28 {
+  transform: translate(-15px, 15px);
+  font-weight: 400;
+  width: 100%;
+}
+
+#price29 {
+  transform: translate(90px, 15px);
+  font-weight: 400;
+  width: 100%;
+}
+
+#price210 {
+  transform: translate(60px, 15px);
+  font-weight: 400;
+  width: 100%;
+}
+
+.fa-heart {
+  transform: translate(30px, 15px);
+}
+
+.center {
+  transform: translate(75px, 0px);
+}
+
+.no-display {
+  @include no-display;
+}
+
+.display {
+  @include display;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}

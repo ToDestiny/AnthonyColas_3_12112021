@@ -1,36 +1,163 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<link rel="stylesheet" href="public/css/normalize.css" />
-		<link rel="stylesheet" href="public/css/app.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap"
-			rel="stylesheet">
-		<script src="https://kit.fontawesome.com/581b080686.js" crossorigin="anonymous"></script>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="../public/css/normalize.css" />
+	<link rel="stylesheet" href="../public/css/app.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap"
+		rel="stylesheet">
+	<script src="https://kit.fontawesome.com/581b080686.js" crossorigin="anonymous"></script>
 
-		<title>OhMyFood - Votre restaurant préféré</title>
+	<title>OhMyFood - Votre restaurant préféré</title>
 
-		<!-- Old browser fix -->
-		<script>
-			var $buoop = { required: { e: -4, f: -3, o: -3, s: -1, c: -3 }, insecure: true, api: 2021.10 };
-			function $buo_f() {
-				var e = document.createElement("script");
-				e.src = "//browser-update.org/update.min.js";
-				document.body.appendChild(e);
-			};
-			try { document.addEventListener("DOMContentLoaded", $buo_f, false) }
-			catch (e) { window.attachEvent("onload", $buo_f) }
-		</script>
+	<!-- Old browser fix -->
+	<script>
+		var $buoop = { required: { e: -4, f: -3, o: -3, s: -1, c: -3 }, insecure: true, api: 2021.10 };
+		function $buo_f() {
+			var e = document.createElement("script");
+			e.src = "//browser-update.org/update.min.js";
+			document.body.appendChild(e);
+		};
+		try { document.addEventListener("DOMContentLoaded", $buo_f, false) }
+		catch (e) { window.attachEvent("onload", $buo_f) }
+	</script>
 
-	</head>
+</head>
 
-	<body>
-	</body>
+<body class="body-color">
+	<header class="header_main row">
+		<a href="../index.html">
+			<i class="fas fa-arrow-left fa-lg"></i>
+		</a>
+		<nav class="header__nav">
+			<img class="header__logo" alt="logo_ohmyfood" src="../public/images/logo/ohmyfood@2x.svg">
+		</nav>
+	</header>
+
+	<section class="menu1_hero">
+		<div class="hero_img">
+			<img src="../public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût">
+		</div>
+	</section>
+
+	<section class="menu1_menu">
+		<div class="row curve">
+			<h1>La palette du goût</h1>
+			<i class="far fa-heart fa-lg"></i>
+		</div>
+		<div class="menu1_container">
+			<h2>ENTRÉES</h2>
+			<hr class="menu1_line">
+			<div class="menu1_card row">
+				<div class="col">
+					<h3>Fricassée d'escargot</h3>
+					<p>Au piment d'espelette</p>
+				</div>
+				<p id="price1">25€</p>
+			</div>
+
+			<div class="menu1_card row">
+				<div class="col">
+					<h3>Foie gras de canard mi-cuit</h3>
+					<p>Et ses copeaux de truffe noire</p>
+				</div>
+				<p id="price2">35€</p>
+			</div>
+
+			<div class="menu1_card row">
+				<div class="col">
+					<h3>Oeuf au plat</h3>
+					<p>Assaisoné à la truffe sur lit de caviar</p>
+				</div>
+				<p id="price3">25€</p>
+			</div>
+		</div>
+
+		<div class="menu1_container">
+			<h2>PLATS</h2>
+			<hr class="menu1_line">
+			<div class="menu1_card row">
+				<div class="col">
+					<h3>Filet de boeuf aux herbes</h3>
+					<p>Accompagné de sa ribambelle de légumes</p>
+				</div>
+				<p id="price4">40€</p>
+			</div>
+
+			<div class="menu1_card row">
+				<div class="col">
+					<h3>Parmentier de queue de boeuf</h3>
+					<p>À la truffe noire sur sa purée de panais</p>
+				</div>
+				<p id="price5">35€</p>
+			</div>
+
+			<div class="menu1_card row">
+				<div class="col">
+					<h3>Filet de turbot</h3>
+					<p>Aux agrumes</p>
+				</div>
+				<p id="price6">44€</p>
+			</div>
+		</div>
+
+		<div class="menu1_container">
+			<h2>DESSERTS</h2>
+			<hr class="menu1_line">
+			<div class="menu1_card row">
+				<div class="col">
+					<h3>Paris-Brest</h3>
+					<p>Revisité</p>
+				</div>
+				<p id="price7">18€</p>
+			</div>
+
+			<div class="menu1_card row">
+				<div class="col">
+					<h3>Macaron au chocolat d'exception</h3>
+					<p>Et glace à la vanille de Madagascar</p>
+				</div>
+				<p id="price8">22€</p>
+			</div>
+
+			<div class="menu1_card row">
+				<div class="col">
+					<h3>Mousse au chocolat</h3>
+					<p>Au piment d'Espelette et à la truffe noire</p>
+				</div>
+				<p id="price9">23€</p>
+			</div>
+		</div>
+	</section>
+
+	<button class="btn center">Commander</button>
+
+	<footer class="footer">
+		<nav class="footer_container">
+			<h2>ohmyfood</h2>
+			<div class="footer_nav">
+				<div class="row">
+					<i class="fas fa-utensils fa-sm"></i>
+					<p>Proposer un restaurant</p>
+				</div>
+				<div class="row">
+					<i class="fas fa-handshake fa-xs"></i>
+					<p>Devenir partenaire</p>
+				</div>
+				<p>Mentions légales</p>
+				<a href="mailto: abc@example.com">
+					<p>Contact</p>
+				</a>
+			</div>
+		</nav>
+	</footer>
+</body>
+
 </html>

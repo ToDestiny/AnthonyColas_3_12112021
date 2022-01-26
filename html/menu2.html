@@ -1,36 +1,171 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<link rel="stylesheet" href="public/css/normalize.css" />
-		<link rel="stylesheet" href="public/css/app.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap"
-			rel="stylesheet">
-		<script src="https://kit.fontawesome.com/581b080686.js" crossorigin="anonymous"></script>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="../public/css/normalize.css" />
+	<link rel="stylesheet" href="../public/css/app.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap"
+		rel="stylesheet">
+	<script src="https://kit.fontawesome.com/581b080686.js" crossorigin="anonymous"></script>
 
-		<title>OhMyFood - Votre restaurant préféré</title>
+	<title>OhMyFood - Votre restaurant préféré</title>
 
-		<!-- Old browser fix -->
-		<script>
-			var $buoop = { required: { e: -4, f: -3, o: -3, s: -1, c: -3 }, insecure: true, api: 2021.10 };
-			function $buo_f() {
-				var e = document.createElement("script");
-				e.src = "//browser-update.org/update.min.js";
-				document.body.appendChild(e);
-			};
-			try { document.addEventListener("DOMContentLoaded", $buo_f, false) }
-			catch (e) { window.attachEvent("onload", $buo_f) }
-		</script>
+	<!-- Old browser fix -->
+	<script>
+		var $buoop = { required: { e: -4, f: -3, o: -3, s: -1, c: -3 }, insecure: true, api: 2021.10 };
+		function $buo_f() {
+			var e = document.createElement("script");
+			e.src = "//browser-update.org/update.min.js";
+			document.body.appendChild(e);
+		};
+		try { document.addEventListener("DOMContentLoaded", $buo_f, false) }
+		catch (e) { window.attachEvent("onload", $buo_f) }
+	</script>
 
-	</head>
+</head>
 
-	<body>
-	</body>
+<body class="body-color">
+	<header class="header_main row">
+		<a href="../index.html">
+			<i class="fas fa-arrow-left fa-lg"></i>
+		</a>
+		<nav class="header__nav">
+			<img class="header__logo" alt="logo_ohmyfood" src="../public/images/logo/ohmyfood@2x.svg">
+		</nav>
+	</header>
+
+	<section class="menu2_hero">
+		<div class="hero_img size-fit">
+			<img src="../public/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La palette du goût">
+		</div>
+	</section>
+
+	<section class="menu2_menu">
+		<div class="row curve">
+			<h1>La note enchantée</h1>
+			<i class="far fa-heart fa-lg"></i>
+		</div>
+		<div class="menu2_container">
+			<h2>ENTRÉES</h2>
+			<hr class="menu2_line">
+			<div class="menu2_card row">
+				<div class="col">
+					<h3>Ravioles de foie gras</h3>
+					<p>Accompagnés de leur crème à la truffe</p>
+				</div>
+				<p id="price21">25€</p>
+			</div>
+
+			<div class="menu2_card row">
+				<div class="col">
+					<h3>Caviar osciètre</h3>
+					<p>Sur blini à la farine de blé noir</p>
+				</div>
+				<p id="price22">35€</p>
+			</div>
+
+			<div class="menu2_card row">
+				<div class="col">
+					<h3>Homard et espuma de potiron</h3>
+					<p>Mariné aux zestes d'orange</p>
+				</div>
+				<p id="price23">20€</p>
+			</div>
+
+			<div class="menu2_card row">
+				<div class="col">
+					<h3>Foie gras de canard cuit entier</h3>
+					<p>Confiture de figue et pain toasté</p>
+				</div>
+				<p id="price24">35€</p>
+			</div>
+		</div>
+
+		<div class="menu2_container">
+			<h2>PLATS</h2>
+			<hr class="menu2_line">
+			<div class="menu2_card row">
+				<div class="col">
+					<h3>Noix de coquilles Saint-Jacques</h3>
+					<p>Sur lit de purée de céleri-rave</p>
+				</div>
+				<p id="price25">40€</p>
+			</div>
+
+			<div class="menu2_card row">
+				<div class="col">
+					<h3>Langoustine poêlée</h3>
+					<p>Purée de patate douce</p>
+				</div>
+				<p id="price26">35€</p>
+			</div>
+
+			<div class="menu2_card row">
+				<div class="col">
+					<h3>Mijoté de queue de boeuf</h3>
+					<p>Et riz sauvage aux zestes de citron</p>
+				</div>
+				<p id="price27">44€</p>
+			</div>
+		</div>
+
+		<div class="menu2_container">
+			<h2>DESSERTS</h2>
+			<hr class="menu2_line">
+			<div class="menu2_card row">
+				<div class="col">
+					<h3>Macaron noisette et chocolat</h3>
+					<p>Glace au caramel brun et sel de Guérande</p>
+				</div>
+				<p id="price28">18€</p>
+			</div>
+
+			<div class="menu2_card row">
+				<div class="col">
+					<h3>Baba au rhum revisité</h3>
+					<p>Avec son coulis de citron</p>
+				</div>
+				<p id="price29">22€</p>
+			</div>
+
+			<div class="menu2_card row">
+				<div class="col">
+					<h3>Tarte au citron meringuée</h3>
+					<p>Déstructurée</p>
+				</div>
+				<p id="price210">23€</p>
+			</div>
+		</div>
+	</section>
+
+	<button class="btn center">Commander</button>
+
+	<footer class="footer">
+		<nav class="footer_container">
+			<h2>ohmyfood</h2>
+			<div class="footer_nav">
+				<div class="row">
+					<i class="fas fa-utensils fa-sm"></i>
+					<p>Proposer un restaurant</p>
+				</div>
+				<div class="row">
+					<i class="fas fa-handshake fa-xs"></i>
+					<p>Devenir partenaire</p>
+				</div>
+				<p>Mentions légales</p>
+				<a href="mailto: abc@example.com">
+					<p>Contact</p>
+				</a>
+			</div>
+		</nav>
+	</footer>
+</body>
+
 </html>

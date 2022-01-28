@@ -1,0 +1,22 @@
+/* Keyframes */
+
+.fadein1 {
+  animation: fadein ease-in 1s;
+}
+
+.fadein2 {
+  animation: fadein ease-in 2s;
+}
+
+.fadein3 {
+  animation: fadein ease-in 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

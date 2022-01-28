@@ -12,6 +12,10 @@
   animation: fadein ease-in 3s;
 }
 
+.fadein4 {
+  animation: fadein ease-in 4s;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;

@@ -21,6 +21,11 @@
           animation: fadein ease-in 3s;
 }
 
+.fadein4 {
+  -webkit-animation: fadein ease-in 4s;
+          animation: fadein ease-in 4s;
+}
+
 @-webkit-keyframes fadein {
   from {
     opacity: 0;
@@ -486,6 +491,11 @@ template {
           animation: fadein ease-in 3s;
 }
 
+.fadein4 {
+  -webkit-animation: fadein ease-in 4s;
+          animation: fadein ease-in 4s;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -557,6 +567,11 @@ a {
           animation: fadein ease-in 3s;
 }
 
+.fadein4 {
+  -webkit-animation: fadein ease-in 4s;
+          animation: fadein ease-in 4s;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -622,6 +637,10 @@ a {
   -webkit-animation: fadein ease-in 3s;
           animation: fadein ease-in 3s;
 }
+.header .fadein4 {
+  -webkit-animation: fadein ease-in 4s;
+          animation: fadein ease-in 4s;
+}
 @keyframes fadein {
   from {
     opacity: 0;
@@ -682,6 +701,10 @@ a {
 .footer .fadein3 {
   -webkit-animation: fadein ease-in 3s;
           animation: fadein ease-in 3s;
+}
+.footer .fadein4 {
+  -webkit-animation: fadein ease-in 4s;
+          animation: fadein ease-in 4s;
 }
 @keyframes fadein {
   from {
@@ -967,6 +990,10 @@ a {
   -webkit-animation: fadein ease-in 3s;
           animation: fadein ease-in 3s;
 }
+.header .fadein4 {
+  -webkit-animation: fadein ease-in 4s;
+          animation: fadein ease-in 4s;
+}
 @keyframes fadein {
   from {
     opacity: 0;
@@ -1027,6 +1054,10 @@ a {
 .footer .fadein3 {
   -webkit-animation: fadein ease-in 3s;
           animation: fadein ease-in 3s;
+}
+.footer .fadein4 {
+  -webkit-animation: fadein ease-in 4s;
+          animation: fadein ease-in 4s;
 }
 @keyframes fadein {
   from {
@@ -1259,6 +1290,10 @@ a {
   -webkit-animation: fadein ease-in 3s;
           animation: fadein ease-in 3s;
 }
+.header .fadein4 {
+  -webkit-animation: fadein ease-in 4s;
+          animation: fadein ease-in 4s;
+}
 @keyframes fadein {
   from {
     opacity: 0;
@@ -1319,6 +1354,10 @@ a {
 .footer .fadein3 {
   -webkit-animation: fadein ease-in 3s;
           animation: fadein ease-in 3s;
+}
+.footer .fadein4 {
+  -webkit-animation: fadein ease-in 4s;
+          animation: fadein ease-in 4s;
 }
 @keyframes fadein {
   from {
@@ -1561,6 +1600,10 @@ a {
   -webkit-animation: fadein ease-in 3s;
           animation: fadein ease-in 3s;
 }
+.header .fadein4 {
+  -webkit-animation: fadein ease-in 4s;
+          animation: fadein ease-in 4s;
+}
 @keyframes fadein {
   from {
     opacity: 0;
@@ -1621,6 +1664,10 @@ a {
 .footer .fadein3 {
   -webkit-animation: fadein ease-in 3s;
           animation: fadein ease-in 3s;
+}
+.footer .fadein4 {
+  -webkit-animation: fadein ease-in 4s;
+          animation: fadein ease-in 4s;
 }
 @keyframes fadein {
   from {
@@ -1853,6 +1900,10 @@ a {
   -webkit-animation: fadein ease-in 3s;
           animation: fadein ease-in 3s;
 }
+.header .fadein4 {
+  -webkit-animation: fadein ease-in 4s;
+          animation: fadein ease-in 4s;
+}
 @keyframes fadein {
   from {
     opacity: 0;
@@ -1913,6 +1964,10 @@ a {
 .footer .fadein3 {
   -webkit-animation: fadein ease-in 3s;
           animation: fadein ease-in 3s;
+}
+.footer .fadein4 {
+  -webkit-animation: fadein ease-in 4s;
+          animation: fadein ease-in 4s;
 }
 @keyframes fadein {
   from {

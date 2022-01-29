@@ -1148,93 +1148,6 @@ a {
   background-color: #99e2d0;
   border: none;
 }
-.menu1_card {
-  min-height: 65px;
-  width: 90%;
-  min-width: 340px;
-  background-color: #fff;
-  border-radius: 10px;
-  margin: 15px 0 15px 0;
-  box-shadow: 0px 15px 10px -15px #4b4b4b;
-}
-.menu1_card h3 {
-  color: #000;
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-  font-weight: 0;
-  font-size: 1.1em;
-  margin: 0 0 10px 10px;
-  border-style: none;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-}
-.menu1_card p {
-  color: #000;
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-  font-weight: 300;
-  max-width: 280px;
-  margin-left: 10px;
-  border-style: none;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-#price1 {
-  transform: translate(120px, 15px);
-  font-weight: 400;
-  width: 100%;
-}
-
-#price2 {
-  transform: translate(65px, 15px);
-  font-weight: 400;
-  width: 100%;
-}
-
-#price3 {
-  transform: translate(30px, 15px);
-  font-weight: 400;
-  width: 100%;
-}
-
-#price4 {
-  transform: translate(0px, 15px);
-  font-weight: 400;
-  width: 100%;
-}
-
-#price5 {
-  transform: translate(10px, 15px);
-  font-weight: 400;
-  min-width: 100%;
-}
-
-#price6 {
-  transform: translate(165px, 15px);
-  font-weight: 400;
-  width: 100%;
-}
-
-#price7 {
-  transform: translate(185px, 15px);
-  font-weight: 400;
-  width: 100%;
-}
-
-#price8 {
-  transform: translate(15px, 15px);
-  font-weight: 400;
-  width: 100%;
-}
-
-#price9 {
-  transform: translate(-5px, 15px);
-  font-weight: 400;
-  width: 100%;
-}
 
 .fa-heart {
   transform: translate(30px, 15px);
@@ -1242,17 +1155,6 @@ a {
 
 .center {
   transform: translate(75px, 0px);
-}
-
-.no-display {
-  display: none;
-}
-.no-display:hover {
-  display: inline-flex;
-}
-
-.display:hover {
-  display: none;
 }
 
 .row {
@@ -1265,6 +1167,107 @@ a {
 .col {
   display: flex;
   flex-direction: column;
+}
+
+.submenu {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 1rem;
+}
+.submenu-title {
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 0.5rem;
+  font-weight: normal;
+}
+.submenu-title::after {
+  content: "";
+  width: 3rem;
+  height: 0.25rem;
+  background-color: #99e2d0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.case {
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  border-radius: 0.75rem;
+  margin: 1rem 0;
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  max-width: 100%;
+}
+.case-header {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  flex: 1;
+}
+.case-title {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 0;
+  font-size: 1.1em;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.case-description {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0;
+  margin-top: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.case-price {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 0.5rem;
+}
+.case-confirmation {
+  background-color: #99e2d0;
+  margin: -1rem -5rem -1rem 1rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.5s;
+}
+.case:hover .case-confirmation {
+  margin-right: -1rem;
+}
+.case-wrap-icon {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  transform: rotate(-180deg);
+  transition-duration: 1s;
+}
+.case:hover .case-wrap-icon {
+  transform: rotate(0);
+}
+.case-icon {
+  color: #99e2d0;
 }
 
 /* menu2 SCSS */

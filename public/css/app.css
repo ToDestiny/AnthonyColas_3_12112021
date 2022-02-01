@@ -886,7 +886,32 @@ a {
   border-radius: 2px;
 }
 
+#flag2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
+  width: 6em;
+  background-color: #99e2d0;
+  color: #36a78b;
+  font-size: 0.9em;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
 #home_heart {
+  transform: translate(280px, -40px);
+}
+
+#home_heart2 {
+  transform: translate(280px, -40px);
+}
+
+#home_heart3 {
+  transform: translate(280px, -40px);
+}
+
+#home_heart4 {
   transform: translate(280px, -40px);
 }
 

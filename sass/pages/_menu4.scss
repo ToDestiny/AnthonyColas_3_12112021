@@ -19,13 +19,9 @@
   position: relative;
   overflow: hidden;
   & img {
-    position: absolute;
-    top: -9999px;
-    bottom: -9999px;
-    left: -9999px;
-    right: -9999px;
-    margin: auto;
-    transform: scale(0.11);
+    object-fit: cover;
+    width: 100%;
+    height: 12rem;
   }
 }
 
@@ -33,7 +29,8 @@
 
 .menu4 {
   &_menu {
-    transform: translate(0px, -30px);
+    transform: translate(0px, -80px);
+    margin-bottom: -80px;
     background-color: $map-bgdclr;
     border-radius: 30px 30px 0 0;
     & h1 {

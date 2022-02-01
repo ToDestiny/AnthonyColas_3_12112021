@@ -869,6 +869,7 @@ a {
   transform: translate(240px, -40px);
 }
 .fa-heart:hover {
+  font-weight: 900;
   color: #ff79da;
 }
 

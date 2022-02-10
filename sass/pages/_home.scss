@@ -119,6 +119,7 @@
 .fa-heart {
   transform: translate(240px, -40px);
   &:hover {
+    transition-duration: 4s;
     font-weight: 900;
     color: $colour-secondary;
   }

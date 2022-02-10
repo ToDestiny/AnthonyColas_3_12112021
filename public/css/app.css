@@ -869,6 +869,7 @@ a {
   transform: translate(240px, -40px);
 }
 .fa-heart:hover {
+  transition-duration: 4s;
   font-weight: 900;
   color: #ff79da;
 }
@@ -2231,5 +2232,47 @@ h2 {
   a {
     text-decoration: none;
     color: black;
+  }
+}
+@media (min-width: 992px) {
+  #home_heart {
+    transform: translate(850px, -40px);
+  }
+
+  #home_heart2 {
+    transform: translate(850px, -40px);
+  }
+
+  #home_heart3 {
+    transform: translate(850px, -40px);
+  }
+
+  #home_heart4 {
+    transform: translate(850px, -40px);
+  }
+
+  .translate-flag {
+    transform: translate(650px, -175px);
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  #home_heart {
+    transform: translate(600px, -40px);
+  }
+
+  #home_heart2 {
+    transform: translate(600px, -40px);
+  }
+
+  #home_heart3 {
+    transform: translate(600px, -40px);
+  }
+
+  #home_heart4 {
+    transform: translate(600px, -40px);
+  }
+
+  .translate-flag {
+    transform: translate(400px, -175px);
   }
 }/*# sourceMappingURL=app.css.map */
